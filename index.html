@@ -5,25 +5,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <link rel="stylesheet" href="style.css">
+
 </head>
-<body>
-    <h1>Conversor de monedas</h1>
+<body >
 
-    <h3>Ingresa el monto a convertir y selecciona a que moneda.</h3>
+    <div class="padding">
+        <h1>Conversor de monedas</h1>
 
-    <label for="montoAconvertir">Monto a convertir:</label>
+        <h3>Ingresa el monto a convertir y selecciona a que moneda.</h3>
 
-    <input type="number" id="monto" name="montoAconvertir" min="0">
+        <label for="montoAconvertir">Monto a convertir:</label>
 
-    <select name="moneda">
-        <option value="euro">Euro</option>
-        <option value="dolar americano">Dolar USA</option>
-        <option value="peso mexicano">Peso Mexicano</option>
-        <option value="peso colombiano">Peso Colombiano</option>
-      </select>
+        <input type="number" id="monto" name="montoAconvertir" min="0">
 
-      <h4 id="MontoTotal"> </h4>
+        <select name="moneda">
+            <option value="euro">Euro</option>
+            <option value="dolar americano">Dolar USA</option>
+            <option value="peso mexicano">Peso Mexicano</option>
+            <option value="peso colombiano">Peso Colombiano</option>
+        </select>
 
+        <h4 id="MontoTotal"> </h4>
+    </div>
 
 </body>
 </html>

@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1.5;
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    background-image: url(imagenes/monedas.jpg);
+    background-repeat: ;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+.padding{
+padding: 15em;
+}
