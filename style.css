@@ -21,3 +21,32 @@ body{
 padding: 15em;
 }
 
+#monto{
+    margin-top: 2em;
+    padding: 0.3em;
+    margin-right: 0.5em;
+    
+}
+#moneda{
+    padding:0.5em;
+}
+.resultado{
+
+    border:2px solid gold;
+    margin-top: 1em;
+    width:2em;
+    height: 2em;
+
+    display: flex;
+    ;
+
+}
+#montoTotal{
+    
+    font-weight: bold;
+    padding: 2em;
+    font-size: 2rem;
+
+}
+
+

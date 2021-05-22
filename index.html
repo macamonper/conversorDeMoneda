@@ -12,13 +12,14 @@
 <body >
 
     <div class="padding">
+
         <h1>Conversor de monedas</h1>
 
         <h3>Ingresa el monto a convertir y selecciona a que moneda.</h3>
 
-        <label for="montoAconvertir">Monto a convertir:</label>
+        <label for="montoAconvertir">Monto a convertir : </label>
 
-        <input type="number" id="monto" name="montoAconvertir" min="0">
+        <input type="number" id="monto" name="montoAconvertir" min="0" placeholder="ingresa el monto ">
 
         <select id="moneda">
             <option value="ninguna">Selecciona la moneda</option>
@@ -28,8 +29,9 @@
             <option value="col">Peso Colombiano</option>
         </select>
 
-   
-        <h4 id="montoTotal"> </h4>
+        <div class="resultado">
+            <h4 id="montoTotal"> </h4>
+        </div>
     </div>
 
 <script src="app.js"></script>
